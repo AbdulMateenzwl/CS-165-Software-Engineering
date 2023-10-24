@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 const bodyParser = require('body-parser');
-// const db = require('./utils/db');
 const productModel = require('./models/cardModel');
 require('./utils/db');
 const productRouter = require('./routes/cardRoute');
